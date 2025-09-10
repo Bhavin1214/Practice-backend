@@ -1,0 +1,46 @@
+const english = {
+    // success messages
+    USER_CREATED:"User created successfully.",
+    LOGIN_SUCCESS:"Logged in successfully.",
+    LOGOUT_SUCCESS:"Logged out successfully.",
+
+    //error messages
+    USER_NOT_FOUND:"User not found.",
+    INVALID_CREDENTIAL:"Invalid email or password.",
+    EMAIL_PHONE_ALREADY_EXIST:"Email or phone is already registered.",
+    SERVER_ERROR:"Something went wrong, please try again later.",
+    LOCATION_INVALID:"Invalid location. Provide [longitude, latitude].",
+    PASSWORD_MISMATCH:"Password does not match.",
+    VALIDATION_ERROR: "please write all data",
+    rest_keywords_token_not_found:"token not found and invalid",
+    PROFILE_FETCHED:"profile fetch success",
+    PROFILE_UPDATED:"profile update success",
+    user_soft_delete:"user temporary deleted",
+    user_permanent_deleted:"user deleted",
+    POST_CREATED:"post upload success",
+    POST_UPDATED:"post updated success",
+    POST_UPDATE_INVALID:"you can not change the post data",
+    rest_keywords_post_not_found:"cant find the post you try to update",
+    post_soft_deleted:"your post is archived",
+    POST_delete_INVALID:"you cannot delete this post",
+    post_deleted:"this post hasbeen deleted. now you can not access it.",
+    POSTS_NOT_FOUND:"posts not found",
+    POSTS_FETCH_SUCCESS:"this is the all posts",
+    MY_POSTS_NOT_FOUND:"you have not post anything",
+    MY_POSTS_FETCH_SUCCESS:"this all is your posts",
+    OTHER_POSTS_NOT_FOUND:"can not find any post",
+    OTHER_POSTS_FETCH_SUCCESS:"this all are others posts",
+    POST_NOT_FOUND:"cant find post",
+    POST_UNLIKED:'you removed like from this post',
+    POST_LIKED:'you like this post',
+    POST_OR_USER_NOT_FOUND:"post or user not found",
+    POST_UNREPOSTED:"post remove from repost",
+    POST_REPOSTED:"post reposted",
+    //validation messages
+    REQUIRED_FIELD: field => `${field} is required.`,
+    INVALID_EMAIL: "Email format is invalid.",
+    INVALID_PHONE: "Phone number format is invalid.",
+    INVALID_GENDER: "Gender must be male, female, or other.",
+}
+
+export default english;
